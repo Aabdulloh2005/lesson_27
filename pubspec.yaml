@@ -34,6 +34,7 @@ dependencies:
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.6
+  google_fonts: ^6.2.1
 
 dev_dependencies:
   flutter_test:
@@ -73,6 +74,22 @@ flutter:
   # list giving the asset and other descriptors for the font. For
   # example:
   fonts:
+    - family: Anton
+      fonts:
+        - asset:  assets/fonts/anton/Anton-Regular.ttf
+          
+    - family: Josefinsans
+      fonts:
+        - asset: assets/fonts/josefin sans/JosefinSans-Italic.ttf
+    - family: Jersey10
+      fonts: 
+        - asset: assets/fonts/jersey10/Jersey10-Regular.ttf
+    - family: Jersey15
+      fonts:
+        - asset: assets/fonts/jersey15/Jersey15-Regular.ttf
+    - family: Sevillana
+      fonts:
+        - asset: assets/fonts/sevillana/Sevillana-Regular.ttf
     - family: Playfair
       fonts:
         - asset: assets/fonts/playfair/PlayfairDisplay-Regular.ttf

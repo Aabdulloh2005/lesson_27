@@ -1,5 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 void main() {
   runApp(const MyApp());
@@ -80,15 +81,15 @@ class HomePage extends StatelessWidget {
                   style: TextStyle(
                     color: Colors.white,
                     fontSize: 20,
-                    fontWeight: FontWeight.w700,
-                    fontStyle: FontStyle.italic,
-                    fontFamily: "Playfair",
+                    fontFamily: "Jersey10",
                   ),
                 ),
                 const Text(
                   "Facebook",
                   style: TextStyle(
                     color: Colors.white,
+                    fontSize: 20,
+                    fontFamily: "Sevillana",
                   ),
                 ),
                 const SizedBox(height: 16),
@@ -108,6 +109,7 @@ class HomePage extends StatelessWidget {
                         "Design",
                         style: TextStyle(
                           color: Colors.white,
+                          fontFamily: "Sevillana",
                         ),
                       ),
                     ),
@@ -153,8 +155,9 @@ class HomePage extends StatelessWidget {
                       "\$180,000/year",
                       style: TextStyle(
                         fontWeight: FontWeight.bold,
-                        fontSize: 16,
+                        fontSize: 18,
                         color: Colors.white,
+                        fontFamily: "Jersey10",
                       ),
                     ),
                     Text(
@@ -176,16 +179,14 @@ class HomePage extends StatelessWidget {
               crossAxisAlignment: CrossAxisAlignment.stretch,
               children: [
                 const SizedBox(height: 15),
-                const Row(
+                Row(
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
                     Text(
                       "Description",
-                      style: TextStyle(
-                        fontWeight: FontWeight.bold,
-                      ),
+                      style: GoogleFonts.antonio().copyWith(fontSize: 18),
                     ),
-                    Text(
+                    const Text(
                       "Requirement",
                       style: TextStyle(
                         fontWeight: FontWeight.bold,
@@ -213,15 +214,16 @@ class HomePage extends StatelessWidget {
                   "Mollit cillum in ut adipisicing cillum ex non consectetur nisi in irure anim sint minim. Nulla aute nostrud sit irure eiusmod qui et elit ullamco reprehenderit quis cupidatat sit magna.Nisi laborum excepteur qui veniam.",
                   style: TextStyle(
                     color: Colors.grey.shade600,
+                    fontFamily: "Josefinsans",
                   ),
                 ),
                 const SizedBox(height: 20),
                 Text(
                   "Responsibilities:",
                   style: TextStyle(
-                    color: Colors.grey.shade600,
-                    fontWeight: FontWeight.w600,
-                  ),
+                      color: Colors.grey.shade600,
+                      fontWeight: FontWeight.w600,
+                      fontFamily: "jersey15"),
                 ),
                 const SizedBox(height: 20),
                 Row(
@@ -238,6 +240,7 @@ class HomePage extends StatelessWidget {
                         "Dolor in ipsum in anim quis anim amet ipsum non amet qui dolor.",
                         style: TextStyle(
                           color: Colors.grey.shade600,
+                          fontFamily: "Josefinsans",
 
                           // background: Paint()..color = Colors.red,
                         ),
@@ -302,9 +305,7 @@ class HomePage extends StatelessWidget {
                   ),
                   child: const Text(
                     "Apply Now",
-                    style: TextStyle(
-                      color: Colors.white,
-                    ),
+                    style: TextStyle(color: Colors.white, fontFamily: "Anton"),
                   ),
                 ),
               ],
